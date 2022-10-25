@@ -75,6 +75,7 @@ let limeList = ['small', 'small', 'large', 'medium', 'small'];
 let x=0;
 for(let i=0; i<limeList.length; i++){
     let slices=0;
+    
     switch(limeList){
         case 'small':
             slices=6;
