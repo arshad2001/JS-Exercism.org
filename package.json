@@ -1,0 +1,22 @@
+{
+  "name": "js-exercism.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "forLoops.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshad2001/javascript-practice-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arshad2001/javascript-practice-1/issues"
+  },
+  "homepage": "https://github.com/arshad2001/javascript-practice-1#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

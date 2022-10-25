@@ -32,3 +32,41 @@ remainingOrders(5, ['Energizer', 'All or Nothing', 'Green Garden']);
 // => ['Green Garden']
 */
 
+const prompt = require("prompt-sync")();
+let name = prompt('what type u want? : ');
+function timeToMixJuice(name) {
+    let minutes = 0;
+switch (name) {
+    case 'Pure Strawberry Joy':
+        minutes = 0.5
+        break;
+    case 'Energizer':
+        minutes = 1.5
+        break;
+    case 'Green Garden':
+        minutes = 1.5
+        break;
+    case 'Tropical Island':
+        minutes = 0.5
+        break;
+    case 'All for Nothing':
+        minutes = 5
+        break;
+    default:
+        minutes = 2.5
+        break;
+    }
+    console.log(minutes)
+    return(minutes)
+
+}
+
+timeToMixJuice(name)
+
+
+/*
+const prompt = require("prompt-sync")();
+
+let a = prompt("enter a number: ")
+console.log(a)
+*/
